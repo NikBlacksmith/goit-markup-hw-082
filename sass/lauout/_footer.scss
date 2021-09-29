@@ -1,0 +1,106 @@
+.footer {
+  background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.footer__cont {
+  display: flex;
+}
+.footer__soc-link {
+  margin-left: 72px;
+  padding-top: 12px;
+}
+.footer__title {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer__link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.footer__addres-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.foot__logo {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.foot-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.subscribe {
+  display: flex;
+  margin-left: 93px;
+  padding-top: 12px;
+}
+.sub__send {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sub__input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 20px;
+}
+.sub__btn-logo {
+  fill: white;
+  margin-left: 10px;
+}
+.sub__title-mail {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-items: baseline;
+}
+.footer__placeholder {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.sub__button {
+  display: flex;
+  position: relative;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: center;
+  justify-content: center;
+  font-weight: 700;
+  line-height: 1.86;
+  color: var(--h1-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  margin-left: 12px;
+}

@@ -1,0 +1,35 @@
+// reset
+@import './base/reset';
+// перменные
+@import './utils/vars';
+// container
+@import './base/container';
+// hidden
+@import './utils/hidden';
+// logo
+@import './components/logo';
+// Хедер
+@import './lauout/header';
+// Hero
+@import './lauout/hero';
+// main btn
+@import './components/main-btn';
+// footer soc
+@import './components/footer-soc_list';
+// footer soc
+@import './components/team-soc-list';
+// pluses
+@import './lauout/pluses';
+// cases
+@import './lauout/cases';
+// team
+@import './lauout/team';
+// clients
+@import './lauout/clients';
+// footer
+@import './lauout/footer';
+// portfolio
+@import './lauout/portfolio-filter';
+
+// modal
+@import './components/modal';

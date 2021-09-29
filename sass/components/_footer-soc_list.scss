@@ -1,0 +1,25 @@
+.soc__marg {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  .foot__soc-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+      background-color: #2196f3;
+      fill: white;
+    }
+  }
+}
+.foot__logo-icon {
+  fill: #ffffff;
+}

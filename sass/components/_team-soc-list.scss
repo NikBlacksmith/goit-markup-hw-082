@@ -1,0 +1,35 @@
+.team__marg {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.tlm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    background-color: #2196f3;
+    fill: white;
+    &.team__logo-icon,
+    .team__logo-icon {
+      fill: white;
+    }
+  }
+}
+
+.tlm {
+  .team__logo-icon {
+    fill: #afb1b8;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
